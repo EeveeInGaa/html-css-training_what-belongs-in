@@ -1,0 +1,158 @@
+/* ********** General Styling ********** */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 17px;
+}
+
+* {
+  font-family: "Trirong", serif;
+}
+
+main {
+  padding-left: 2rem;
+  margin: 0 auto;
+}
+
+*::selection {
+  background-color: #b6c8c0;
+}
+
+main {
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0rem;
+  position: relative;
+  border-top: 0.25rem solid #78998a;
+}
+
+.main > * + * {
+  padding-top: 6rem;
+}
+
+_body * {
+  outline: 2px solid red;
+}
+
+footer {
+  background-color: #d0dcd7;
+  padding-top: 1rem;
+  border-top: 0.25rem solid #78998a;
+}
+
+footer * {
+  display: inline-block;
+  margin-left: 4rem;
+}
+
+/* ********** Specific Styling ********** */
+
+header {
+  background-color: #b6c8c0;
+  padding-left: 1.5rem;
+  display: block;
+}
+
+.mainHeading {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.mainNav {
+  display: inline-block;
+  padding-left: 1rem;
+  border-left: 0.25rem solid #78998a;
+}
+
+nav {
+  padding: 2rem 0rem;
+}
+
+nav * {
+  color: black;
+  margin: 0.7rem;
+  padding: 0.5rem 0.7rem;
+  text-decoration: none;
+  border: 0.25rem solid #78998a;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+nav > *:hover {
+  background-color: #78998a;
+  transition: 0.3s;
+}
+
+nav > *:active {
+  background-color: #b7b6c8;
+  border: 0.25rem solid #b7b6c8;
+  border-radius: 0.5rem;
+}
+
+main {
+  margin-bottom: 6rem;
+}
+
+.text1 {
+  margin: 5rem 5rem 0rem 21.5rem;
+}
+
+.text2 {
+  margin: 0rem 5rem 0rem 4rem;
+}
+
+article h2 {
+  background-color: #b7b6c8;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* ********** Site Styling ********** */
+
+.siteSubHeader a {
+  color: black;
+  margin-bottom: 4rem;
+  padding: 0.5rem 0.7rem;
+  text-decoration: none;
+  border: 0.25rem solid #78998a;
+  border-radius: 0.5rem;
+  display: inline;
+}
+
+.siteSubHeader a:hover {
+  background-color: #78998a;
+  transition: 0.6s;
+}
+
+.siteSubHeader a:active {
+  background-color: #b7b6c8;
+  border: 0.25rem solid #b7b6c8;
+  border-radius: 0.5rem;
+}
+.siteSubHeader {
+  padding-top: 2rem;
+}
+
+.siteMainHeading {
+  margin-top: 1rem;
+  padding: 1rem 0rem;
+  margin-bottom: 0rem;
+}
+
+.subMainSite > * + * {
+  padding-top: 2rem;
+}
+
+.siteText {
+  padding-left: 6rem;
+  max-width: 100ch;
+}
