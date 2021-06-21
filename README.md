@@ -1,4 +1,4 @@
-# html.cssTraining_what-belongs-in
+# html-css-training_what-belongs-in
 
 *20.07.21:*
 
