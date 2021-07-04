@@ -6,3 +6,4 @@
 - currently only supports "Fire Lookout" as Subpage
 - still a lot to do, but good start 
 - footer elements aren't linked jet
+- Header text "in/to/on" should be animated to only see one word at a time.
